@@ -1,3 +1,4 @@
+/* eslint-env node */
 const del = require("rollup-plugin-delete");
 const resolve = require("rollup-plugin-node-resolve");
 const progress = require("rollup-plugin-progress");

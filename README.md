@@ -14,7 +14,7 @@ TODO: Remove this section when all TODOs are resolved.
 
 ## Running the tests
 
-To run the full test suite, including format checking and building:
+To run the full test suite, including format checking, linting, and building:
 
 ```bash
 npm test
@@ -30,6 +30,23 @@ To run the formatter:
 
 ```bash
 npm run format
+```
+
+## Linting the code
+
+We use [ESLint](https://eslint.org/), in addition to TypeScript's compiler, for
+verifying correctness and maintainability of code.
+
+To run the linter:
+
+```bash
+npm run lint
+```
+
+To run the linter in fix mode:
+
+```bash
+npm run lint:fix
 ```
 
 ## Architecture decision records
