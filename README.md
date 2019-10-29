@@ -12,6 +12,12 @@ TODO: Change the `name` field of the [`package.json`](package.json) and run
 
 TODO: Remove this section when all TODOs are resolved.
 
+## Architecture decision records
+
+We use ADRs to document architecture decisions that we make. They can be found
+in `docs/adr` and contributed to with
+[adr-tools](https://github.com/npryce/adr-tools).
+
 ## Source
 
 This repository was bootstrapped from dxw's
