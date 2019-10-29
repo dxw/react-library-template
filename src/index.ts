@@ -1,3 +1,2 @@
-export default function noop(): void {
-  console.log("noop");
-}
+// TODO: Update this with the components you want to export from the library.
+export * from "./components/Example";
