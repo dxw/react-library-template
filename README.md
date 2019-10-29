@@ -12,6 +12,14 @@ TODO: Change the `name` field of the [`package.json`](package.json) and run
 
 TODO: Remove this section when all TODOs are resolved.
 
+## Running the tests
+
+To run the full test suite, including building:
+
+```bash
+npm test
+```
+
 ## Architecture decision records
 
 We use ADRs to document architecture decisions that we make. They can be found
