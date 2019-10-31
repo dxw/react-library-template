@@ -12,7 +12,14 @@ TODO: Change the `name` field of the [`package.json`](package.json) and run
 
 TODO: Remove this section when all TODOs are resolved.
 
-## Running the tests
+## For users
+
+TODO: Document any useful information for users, such as installation steps and
+API documentation.
+
+## For contributors
+
+### Running the tests
 
 We use [Jest](https://jestjs.io/) for testing.
 
@@ -22,7 +29,7 @@ To run the full test suite, including format checking, linting, and building:
 npm test
 ```
 
-## Formatting the code
+### Formatting the code
 
 We use [Prettier](https://prettier.io/) to format our code. There are lots of
 [editor integrations](https://prettier.io/docs/en/editors.html) available, and
@@ -34,7 +41,7 @@ To run the formatter:
 npm run format
 ```
 
-## Linting the code
+### Linting the code
 
 We use [ESLint](https://eslint.org/), in addition to TypeScript's compiler, for
 verifying correctness and maintainability of code.
